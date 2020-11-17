@@ -1,0 +1,100 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em !important; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 550px; }
+
+.carousel-img-1 {
+  background: url("../img/pic2.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/pic3.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/pic4.jpg");
+  background-size: cover; }
+
+.carousel-img-4 {
+  background: url("../img/pic5.jpg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#homesec1 {
+  position: relative;
+  background: url("../img/pic2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 350px; }
+  #homesec1 .dark-overlay {
+    background: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6; }
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding-left: 0em; }
+  #homesec1 {
+    min-height: 450px; } }
+
+#vedio {
+  position: relative;
+  background: url("../img/pic4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 300px; }
+  #vedio .dark-overlay {
+    background: #000;
+    position: absolute;
+    opacity: .7;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  #vedio .fa {
+    font-size: 50px; }
+
+#gallery {
+  min-height: 300px; }
+
+#footer {
+  background: #000; }
+
+#home1 {
+  position: relative;
+  background: url("../img/pic4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed; }
+  #home1 .dark-overlay {
+    background: #000;
+    opacity: .7;
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+
+#part2 img {
+  width: 350px;
+  height: 350px; }
+
+#iconbox .fa {
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+#contract input {
+  margin-top: 8px;
+  margin-bottom: 8px; }
